@@ -1,6 +1,6 @@
 // The native build injects the content fingerprint and complete asset inventory.
-const RELEASE = "1246d79543a79e2f";
-const PRECACHE = ["assets/index-CglkwyPw.css","assets/index-DQ4L-vej.js","favicon.png","fonts/MarkaziTextDigits-VariableFont_wght.ttf","fonts/OFL.txt","fonts/Vazirmatn-Variable.woff2","icons/Icon-192.png","icons/Icon-512.png","icons/Icon-maskable-192.png","icons/Icon-maskable-512.png","index.html","manifest.webmanifest"];
+const RELEASE = "271fed0131768441";
+const PRECACHE = ["assets/main-301299161d7dacde.css","assets/main-5af93683a05aef50.js","favicon.png","fonts/MarkaziTextDigits-VariableFont_wght.ttf","fonts/OFL.txt","fonts/Vazirmatn-Variable.woff2","icons/Icon-192.png","icons/Icon-512.png","icons/Icon-maskable-192.png","icons/Icon-maskable-512.png","index.html","manifest.webmanifest"];
 const scope = new URL(self.registration.scope);
 // Native and Flutter releases, and independently hosted subpaths, stay isolated.
 const PREFIX = "loan-guy-native:" + scope.pathname + ":";
